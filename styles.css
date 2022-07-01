@@ -1,15 +1,11 @@
-:root{
-    --backColour: #1a1a1a;
-}
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 html, body{
     width: 100%;
-    background-color: var(--backColour);
+    background-color: #1a1a1a;
     color: #9b9b9b;
     font-family: 'Major Mono Display', monospace;
     min-width: 600px;
@@ -93,6 +89,19 @@ p{
 }
 #a-level{
     padding-top: 2em;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    left: 25vw;
+    width: 60vw;
+    padding-left: 5vw;
+    padding-top: 10vh;
+}
+
+h2 {
+    padding-bottom: 0.5em;
 }
 
 #page-divider{
