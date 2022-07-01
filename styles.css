@@ -1,11 +1,15 @@
-* {
+:root{
+    --backColour: #1a1a1a;
+}
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 html, body{
     width: 100%;
-    background-color: #1a1a1a;
+    background-color: var(--backColour);
     color: #9b9b9b;
     font-family: 'Major Mono Display', monospace;
     min-width: 600px;
@@ -91,19 +95,6 @@ p{
     padding-top: 2em;
 }
 
-main {
-    position: absolute;
-    top: 0;
-    left: 25vw;
-    width: 60vw;
-    padding-left: 5vw;
-    padding-top: 10vh;
-}
-
-h2 {
-    padding-bottom: 0.5em;
-}
-
 #page-divider{
     position: fixed;
     width: 2px;
@@ -116,4 +107,59 @@ h2 {
 main section {
     height: 100vh;
     padding-top: 10vh;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    html{
+        background-color: var(--backColour);
+    }
+    p{
+        line-height: 1;
+    } 
+    header{
+        z-index: 99;
+    }
+    #menu{
+        position:relative;
+    }
+    .e1{
+        left:42vh;
+        bottom:12vh;
+        font-size: 60%;
+    }
+    .e2{
+        left:27vh;
+        bottom:20vh;
+        font-size: 60%;
+    }
+    #logo{
+        position: fixed;
+        left:50%;
+        bottom:90%;
+    }
+    #mobile-box{
+        position: fixed;
+        background-color: var(--backColour);
+        display: inline-block;
+        height:20%;
+        width:100%;
+        z-index:98;
+
+    }
+    #page-divider{
+        position: fixed;
+        width: 100vh;
+        top: 20%;
+        height: 2px;
+        background: linear-gradient(rgba(96,96,96,0) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 75%, rgba(96,96,96,0) 100%);
+    }
+    main {
+        position: absolute;
+        top: 0;
+        width: 80vw;
+        padding-left: 5vw;
+        padding-top: 10vh;
+    }
+
 }
