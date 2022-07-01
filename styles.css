@@ -146,15 +146,15 @@ main section {
     }
 }
 @media screen and (max-width: 800px) {
-    
+    .warning {
+        visibility: visible;
+    }
     p,h2,ul{
         font-size: 70%;
     }
 }
 @media screen and (max-width: 650px) {
-    .warning {
-        visibility: visible;
-    }
+    
     p,h2,ul{
         font-size: 60%;
     }
