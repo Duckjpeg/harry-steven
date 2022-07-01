@@ -122,25 +122,4 @@ main section {
 
 
 
-@media only screen and (max-width: 800px){
-    html{
-        background-color: rgb(225, 255, 0);
-        margin: auto;
-    }
-    header{
-        position: fixed;
-        z-index:99;
-    }
-    #logo{
-        position: absolute;
-        left:100px;
-        bottom:48vh;
-    }
-    #mobile-box{
-        position: fixed;
-        background-color: var(--backColour);
-        width:100vw;
-        height:15%;
-        z-index: 98;
-    }
-}
+
