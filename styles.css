@@ -122,4 +122,39 @@ main section {
 
 
 
+.warning {
+    visibility: hidden;
+    position: fixed;
+    inset: 0 0 auto 0;
+    padding: 0.25em;
+    background-color: #5d1616;
+    text-align: center;
+    border-bottom: #000000;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    cursor: default;
+    z-index: 10;
+}
 
+.warning:hover {
+    opacity: 0.25;
+}
+
+@media screen and (max-width: 1024px) {
+    .warning {
+        visibility: visible;
+    }
+    p,h2,ul{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 800px) {
+    p,h2,ul{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 650px) {
+    p,h2,ul{
+        font-size: 60%;
+    }
+}
