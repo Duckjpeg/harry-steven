@@ -141,14 +141,14 @@ main section {
 }
 
 @media screen and (max-width: 1024px) {
-    .warning {
-        visibility: visible;
-    }
     p,h2,ul{
         font-size: 80%;
     }
 }
 @media screen and (max-width: 800px) {
+    .warning {
+        visibility: visible;
+    }
     p,h2,ul{
         font-size: 70%;
     }
@@ -158,3 +158,4 @@ main section {
         font-size: 60%;
     }
 }
+
