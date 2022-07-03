@@ -9,28 +9,29 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="warning"><p>this page might not be displayed as intended on your device.<br>
-            if on a mobile phone tilt it sideways for better viewing <br>
-            or use a tablet,laptop or pc.</p>
-        </div>
         <header>
-            <h1>
+            <h1 id="logo">
             KO&nbsp<br>
             SE.<br>
             </h1>
-            <ul>
-                <li><a href="#start">start</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#qualifications">qualifications</a></li>
-                <li><a href="#car-cleaning">car cleaning</a></li>
-                <li><a href="#tech-support">tech support</a></li>
-                <li><a href="#tutoring">tutoring</a></li>
-                <li><a href="#contact">contact</a></li>
+            <ul id="menu">
+                <li class="e1"><a href="#start">start</a></li>
+                <li class="e1"><a href="#about">about</a></li>
+                <li class="e1"><a href="#contact">contact</a></li>
+                <li class="e2"><a href="#qualifications">qualifications</a></li>
+                <li class="e2"><a href="#car-cleaning">car cleaning</a></li>
+                <li class="e2"><a href="#tech-support">tech support</a></li>
+                <li class="e2"><a href="#tutoring">tutoring</a></li>
             </ul>
-        </header>
 
-        <div id="page-divider"></div>
+        <div id="mobile-header">
+
+
+        </div>
+        </header>
+        
         <main>
+            <div id="page-divider"></div>
             <section aria-label="start" id="start">
                 <h2>welcome</h2>
                 <p>
@@ -85,15 +86,56 @@
             </section>
             <section aria-label="car cleaning" id="car-cleaning">
                 <h2>car cleaning</h2>
-                <p>bla bla bla</p>
+                <table>
+                    <tr>
+                        <th> - </th>
+                        <th class="basic">basic </th>
+                        <th class="premium">premium </th>
+                        <th class="deuluxe">deuluxe</th>
+                    </tr>
+                    <tr>
+                        <td>inside</td>
+                        <td>£15</td>
+                        <td>£30</td>
+                        <td>£45</td>
+                    </tr>
+                    <tr>
+                        <td>outside</td>
+                        <td>£15</td>
+                        <td>£25</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+                <ul> <p>extra info</p>
+                    <li>£5 for a layer of wax to be applied after cleaning</li>
+                    <li>save £10 when you coodse both inside and outside</li>
+                    <li>tiers of cleaning can be mixed and matched (basic inside with premium outside)</li>
+                </ul>
+                <ul><p>outside cleaning tiers</p>
+                    <li>basic outside - (internal and external) windows cleaned, bodywork shampoo'd and polished</li>
+                    <li>premium outside - basic tier + free wax application, tire cleaning and wheel cleaning</li>
+                </ul>
+                <ul><p>inside cleaning tiers</p>
+                    <li>basic inside - all seats and matts hoovered and plastic surfaces cleaned</li>
+                    <li>premium inside - basic tier + all seats cleaned with a carpet cleaner (removes mud and spill marks)</li>
+                    <li>deuluxe inside - premium tier + all interior shampoo'd. matts, seats and floor cleaned with a carpet cleaner. <br>restores to near if not show room level </li>
+                </ul>
             </section>
             <section aria-label="tech support" id="tech-support">
                 <h2>tech support</h2>
-                <p>bla bla bla</p>
+                <p>
+                    lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                    delectus deleniti distinctio doloribus molestiae odit omnis <br>
+                    sapiente sit tempora ullam unde.
+                </p>
             </section>
             <section aria-label="tutoring" id="tutoring">
                 <h2>tutoring</h2>
-                <p>bla bla bla</p>
+                <p>
+                    lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                    delectus deleniti distinctio doloribus molestiae odit omnis <br>
+                    sapiente sit tempora ullam unde.
+                </p>
             </section>
             <section aria-label="contact info" id="contact">
                 <h2>contact information</h2>
@@ -104,5 +146,101 @@
                 <p>email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -- <a href="mailTo:harry.steven.b@gmail.com"> harry.steven.b@gmail.com</a></p>
             </section>
         </main>
+        <!--BELOW IS MOBILE PAGE THAT IS SHOWN OR HIDDEN DEPENDING ON CSS-->
+        <!--BELOW IS MOBILE PAGE THAT IS SHOWN OR HIDDEN DEPENDING ON CSS-->
+        <!--BELOW IS MOBILE PAGE THAT IS SHOWN OR HIDDEN DEPENDING ON CSS-->
+        <!--BELOW IS MOBILE PAGE THAT IS SHOWN OR HIDDEN DEPENDING ON CSS-->
+        <!--BELOW IS MOBILE PAGE THAT IS SHOWN OR HIDDEN DEPENDING ON CSS-->
+        <!--BELOW IS MOBILE PAGE THAT IS SHOWN OR HIDDEN DEPENDING ON CSS-->        
+        <!--BELOW IS MOBILE PAGE THAT IS SHOWN OR HIDDEN DEPENDING ON CSS-->
+        <!--BELOW IS MOBILE PAGE THAT IS SHOWN OR HIDDEN DEPENDING ON CSS-->
+        <div class="mobile">
+            <div id="mobile-box"></div>
+            <div id="page-divider"></div>
+            <section aria-label="start" id="start-m">
+                <h2>welcome</h2>
+                <p>
+                    hi my name is harry steven, <br>
+                    i offer a variety of services listed on the left side of your screen <br>
+                    and i also am learning to code in my free time, <br>
+                    which is how i made this website by myself. <br>
+                </p>
+            </section>
+            <section aria-label="about" id="about-m">
+                <h2>about me </h2>
+                <p>
+                    for my a-levels i am currently studying: <br>
+                    maths - further maths - physics - chemistry <br>
+                </p>
+            </section>
+            <section aria-label="qualifications" id="qualifications-m">
+                <h2>here are my gcse exam results</h2>
+                <p2>
+                    gcse: <br>
+                    <ul id="gcse">
+                        <li>physics (triple) &nbsp&nbsp&nbsp -- x</li>
+                        <li>chemistry (triple) &nbsp -- x</li>
+                        <li>biology (triple) &nbsp&nbsp&nbsp -- x</li>
+                        </li>
+                        <li>
+                            maths &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -- x
+                        </li>
+                        <li>
+                            it &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -- x
+                        </li>
+                        <li>
+                            english language &nbsp&nbsp&nbsp -- x
+                        </li>
+                        <li>
+                            english literature &nbsp -- x
+                        </li>
+                        <li>
+                            geography &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -- x
+                        </li>
+                        <li>
+                            dt &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -- x
+                        </li>
+                        <li>
+                            german &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -- x
+                        </li>
+                    </ul>
+                    <h2 id="a-level"></h2>
+                    <ul>
+                    </ul>
+                </p2>
+            </section>
+            <section aria-label="car cleaning" id="car-cleaning-m">
+                <h2>car cleaning</h2>
+                <p>
+                    lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                    delectus deleniti distinctio doloribus molestiae odit omnis <br>
+                    sapiente sit tempora ullam unde.
+                </p>
+            </section>
+            <section aria-label="tech support" id="tech-support-m">
+                <h2>tech support</h2>
+                <p>
+                    lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                    delectus deleniti distinctio doloribus molestiae odit omnis <br>
+                    sapiente sit tempora ullam unde.
+                </p>
+            </section>
+            <section aria-label="tutoring" id="tutoring-m">
+                <h2>tutoring</h2>
+                <p>
+                    lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                    delectus deleniti distinctio doloribus molestiae odit omnis <br>
+                    sapiente sit tempora ullam unde.
+                </p>
+            </section>
+            <section aria-label="contact info" id="contact-m">
+                <h2>contact information</h2>
+                <p>
+                    name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -- harry steven <br>
+                    phone number -- 07535014069 (preferably use my email)
+                </p>
+                <p>email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -- <a href="mailTo:harry.steven.b@gmail.com"> harry.steven.b@gmail.com</a></p>
+            </section>
+        </div>
     </body>
-</html> 
+</html>
