@@ -1,3 +1,7 @@
+:root{
+    --backColour:#1a1a1a;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@
 }
 html, body{
     width: 100%;
-    background-color: #1a1a1a;
+    background-color: var(--backColour);
     color: #9b9b9b;
     font-family: 'Major Mono Display', monospace;
     min-width: 600px;
@@ -21,6 +25,7 @@ header{
     height: 50%;
     padding-right: 1em;
     transform: translateX(-100%);
+    visibility: visible;
 }
 
 header ul {
@@ -87,7 +92,7 @@ header li:hover:before {
 p{
     line-height: 1.6;
 }
-#a-level{
+.a-level{
     padding-top: 2em;
 }
 
@@ -98,11 +103,40 @@ main {
     width: 60vw;
     padding-left: 5vw;
     padding-top: 10vh;
+    visibility: visible;
 }
 
 h2 {
     padding-bottom: 0.5em;
 }
+
+table{
+    border: 2px solid;
+    width: 60vw;
+    height:30vh;
+}
+th,tr,td{
+    border: 2px solid;
+    text-align: center;
+}
+section li{
+    padding-top:2vh;
+    line-height: 1.5;
+}
+section ul p{
+    padding-top:3vh;
+    color:aqua;
+}
+.basic{
+    color:rgb(134, 78, 1);
+}
+.premium{
+    color:silver;
+}
+.deuluxe{
+    color: gold;
+}
+
 
 #page-divider{
     position: fixed;
@@ -114,49 +148,18 @@ h2 {
 }
 
 main section {
-    height: 100vh;
-    padding-top: 10vh;
+    height: 120vh;
+    padding-top: 20vh;
 }
-
-
-
-
-
-.warning {
+.mobile{
     visibility: hidden;
-    position: fixed;
-    inset: 0 0 auto 0;
-    padding: 0.25em;
-    background-color: rgba(255, 0, 0, .1);
-    text-align: center;
-    border-bottom: #000000;
-    opacity: 1;
-    transition: opacity 0.5s ease;
-    cursor: default;
-    z-index: 10;
 }
 
-.warning:hover {
-    opacity: 0.25;
-}
-
-@media screen and (max-width: 1024px) {
-    p,h2,ul{
-        font-size: 80%;
-    }
-}
 @media screen and (max-width: 800px) {
-    .warning {
+    main, header, #page-divider{
+        visibility: hidden;
+    }
+    .mobile{
         visibility: visible;
     }
-    p,h2,ul{
-        font-size: 70%;
-    }
 }
-@media screen and (max-width: 650px) {
-    
-    p,h2,ul{
-        font-size: 60%;
-    }
-}
-
