@@ -1,5 +1,6 @@
 :root{
     --backColour:#1a1a1a;
+    --textColor:#9b9b9b;
 }
 
 * {
@@ -10,7 +11,7 @@
 html, body{
     width: 100%;
     background-color: var(--backColour);
-    color: #9b9b9b;
+    color: var(--textColor);
     font-family: 'Major Mono Display', monospace;
     min-width: 600px;
     scroll-behavior: smooth;
@@ -34,7 +35,7 @@ header ul {
 }
 
 a {
-    color: #787878;
+    color: var(--textColor);
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -44,7 +45,7 @@ a {
 main a {
     display: inline-block;
     background: transparent;
-    color: #808080;
+    color: var(--textColor);
     padding: 0.1em;
     position: absolute;
 }
@@ -67,7 +68,7 @@ main a:hover:before {
 header a {
     display: inline-block;
     background: transparent;
-    color: #808080;
+    color: var(--textColor);
     width: 100%;
     padding: 0.1em;
 }
@@ -110,6 +111,9 @@ h2 {
     padding-bottom: 0.5em;
 }
 
+
+
+/*car info*/
 table{
     border: 2px solid;
     width: 60vw;
@@ -127,6 +131,9 @@ section ul p{
     padding-top:3vh;
     color:aqua;
 }
+b{
+    color:aquamarine;
+}
 .basic{
     color:rgb(134, 78, 1);
 }
@@ -138,6 +145,13 @@ section ul p{
 }
 
 
+main section {
+    height: 150vh;
+    padding-top: 20vh;
+}
+
+
+
 #page-divider{
     position: fixed;
     width: 2px;
@@ -147,10 +161,7 @@ section ul p{
     background: linear-gradient(rgba(96,96,96,0) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 75%, rgba(96,96,96,0) 100%);
 }
 
-main section {
-    height: 120vh;
-    padding-top: 20vh;
-}
+
 .mobile{
     visibility: hidden;
 }
