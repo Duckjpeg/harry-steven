@@ -195,7 +195,7 @@ main section {
     padding-top: 20%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     main, header, #page-divider{
         display: none;
     }
