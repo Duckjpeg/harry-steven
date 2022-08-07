@@ -24,8 +24,8 @@ header{
 
 #title{
     color: var(--textColor);
-    font-size: 300%;
-    padding-top: 1%;
+    font-size: 250%;
+    padding-top: 3%;
 }
 #next-page{
     color: var(--textColor);
