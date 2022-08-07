@@ -1,0 +1,98 @@
+:root{
+    --backColour:#1a1a1a;
+    --textColor:#9b9b9b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, li{
+    line-height: 3vh;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 7.5%;
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+}
+
+#title{
+    color: var(--textColor);
+    font-size: 300%;
+    padding-top: 1%;
+}
+#next-page{
+    color: var(--textColor);
+    padding-right: 5vw;
+    padding-top: 20%;
+    font-size: 100%;
+    
+}
+
+main{
+    padding-top: 10vh;
+}
+
+
+html body{
+    width: 100%;
+    background-color: var(--backColour);
+    color: var(--textColor);
+    font-family: 'Major Mono Display', monospace;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: underline;
+    color: var(--textColor)
+}
+
+#homeButton{
+    width: 30vw;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+
+/*car info*/
+table{
+    border: 2px solid;
+    width: 60vw;
+    height:30vh;
+}
+th,tr,td{
+    border: 2px solid;
+    text-align: center;
+}
+section li{
+    padding-top:2vh;
+    line-height: 1.5;
+}
+section ul p{
+    padding-top:3vh;
+    color:aqua;
+}
+b{
+    color:aquamarine;
+}
+.basic{
+    color:rgb(134, 78, 1);
+}
+.premium{
+    color:silver;
+}
+.deuluxe{
+    color: gold;
+}
