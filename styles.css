@@ -182,13 +182,6 @@ main section {
     padding-top: 20%;
 }
 
-#menu{
-    display: table;
-    margin: 0 auto;
-    list-style-type: none;
-    font-size: 150%;
-    line-height: 10vh;
-}
 
 @media screen and (max-width: 1000px) {
     main, header, #page-divider{
@@ -196,5 +189,12 @@ main section {
     }
     .mobile{
         display:contents;
+    }
+    #menu{
+    display: table;
+    margin: 0 auto;
+    list-style-type: none;
+    font-size: 150%;
+    line-height: 10vh;
     }
 }
