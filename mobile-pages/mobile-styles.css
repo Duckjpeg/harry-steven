@@ -49,6 +49,12 @@ html body{
     font-size: 3.5vw;
 }
 
+li {
+    list-style: disc outside none;
+    display: list-item;
+    margin-left: 1.5em;
+}
+
 a{
     text-decoration: underline;
     color: var(--textColor)
