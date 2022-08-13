@@ -164,14 +164,14 @@ main section {
     display: none;
 }
 
-#header-box{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    width: 100%;
-    height: 12%;
-    background-color: rgb(37, 37, 37);
-    position: fixed;
+#header-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 55px;
+	background-color: rgb(37, 37, 37);
+	position: fixed;
 }
 
 #title-m {
