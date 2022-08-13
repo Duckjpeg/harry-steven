@@ -24,15 +24,14 @@ header{
 
 #title{
     color: var(--textColor);
-    font-size: 250%;
-    padding-top: 3%;
+    font-size: 40px;
+    padding-top: 0.2ex;
 }
 #next-page{
     color: var(--textColor);
     padding-right: 5vw;
-    padding-top: 20%;
-    font-size: 100%;
-    
+    padding-top: 5px;
+    font-size: 20px;
 }
 
 main{
