@@ -174,9 +174,10 @@ main section {
     position: fixed;
 }
 
-#title-m{
-    font-size: 300%;
-    color: var(--textColor);
+#title-m {
+	color: var(--textColor);
+	font-size: 40px;
+	padding-top: 0.2ex;
 }
 #mobile-main{
     padding-top: 20%;
